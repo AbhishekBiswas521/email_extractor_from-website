@@ -2,7 +2,7 @@ import requests
 import re
 chk=[]
 fetched_url=[]
-urls="http://www.dalailama.com/"
+urls="https://www.dalailama.com/"
 useful_urls=[]
 r=requests.get(urls)
 print r
